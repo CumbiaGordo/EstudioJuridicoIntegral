@@ -142,6 +142,7 @@ body {
 .main {
     padding-top: 150px;
     padding-bottom: 150px;
+    margin-left: 80px;
 }
 
 .parrafo {
@@ -181,6 +182,7 @@ body {
 .main {
     padding-top: 75px;
     padding-bottom: 75px;
+    margin-left: 0px;
 }
 
 .navbar ul {
@@ -206,4 +208,20 @@ body {
 .subtitulo {
     font-size: 2em;
 }
+
+.container-contacto {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 20px;
 }
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+    .container-contacto {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
+    }
